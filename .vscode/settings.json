@@ -1,0 +1,9 @@
+{
+    "editor.fontLigatures": false,
+    "editor.fontSize": 14,
+    "scm.inputFontSize": 13,
+    "debug.console.fontSize": 14,
+    "markdown.preview.fontSize": 14,
+    "terminal.integrated.fontSize": 14,
+    "editor.mouseWheelZoom": true
+}
