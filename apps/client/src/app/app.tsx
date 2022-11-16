@@ -4,10 +4,12 @@ import NxWelcome from './nx-welcome';
 
 import { Route, Routes, Link } from 'react-router-dom';
 
+import { Button } from '@nx-apps/ui';
+
 export function App() {
   return (
     <>
-      <NxWelcome title="client" />
+      {/* <NxWelcome title="client" /> */}
       <div />
 
       {/* START: routes */}
@@ -17,6 +19,9 @@ export function App() {
       <hr />
       <br />
       <div role="navigation">
+        <h1>my button</h1>
+        <Button />
+        <hr />
         <ul>
           <li>
             <Link to="/">Home</Link>
