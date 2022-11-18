@@ -19,7 +19,7 @@ export function App() {
       <hr />
       <br />
       <div role="navigation">
-        <h1>my button</h1>
+        <h1 className='text-2xl'>my button</h1>
         <Button />
         <hr />
         <ul>
