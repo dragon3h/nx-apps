@@ -1,10 +1,10 @@
 import { render } from '@testing-library/react';
 
-import Button from './Button';
+import Dropdown from './dropdown';
 
-describe('Button', () => {
+describe('Dropdown', () => {
   it('should render successfully', () => {
-    const { baseElement } = render(<Button />);
+    const { baseElement } = render(<Dropdown />);
     expect(baseElement).toBeTruthy();
   });
 });

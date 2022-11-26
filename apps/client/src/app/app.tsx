@@ -1,10 +1,9 @@
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 import styles from './app.module.scss';
 import NxWelcome from './nx-welcome';
-
 import { Route, Routes, Link } from 'react-router-dom';
 
-import { Button } from '@nx-apps/ui';
+import UiComponents from './pages/ui-components/ui-components';
 
 export function App() {
   return (
@@ -19,8 +18,7 @@ export function App() {
       <hr />
       <br />
       <div role="navigation">
-        <h1 className='text-2xl'>my button</h1>
-        <Button />
+        <UiComponents />
         <hr />
         <ul>
           <li>
