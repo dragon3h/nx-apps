@@ -1,10 +1,10 @@
 import { render } from '@testing-library/react';
 
-import Ui from './ui';
+import Accordion from './accordion';
 
-describe('Ui', () => {
+describe('Accordion', () => {
   it('should render successfully', () => {
-    const { baseElement } = render(<Ui />);
+    const { baseElement } = render(<Accordion />);
     expect(baseElement).toBeTruthy();
   });
 });
